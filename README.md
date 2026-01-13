@@ -75,13 +75,19 @@ Then open:
 
 ## 📊 Power BI Dashboard – Key Insights
 
--Displays overall performance with Total Sales (4.74M), Total Transactions (18K), and Total Refunds (4.78M).
--Shows sales distribution by payment method, where credit and digital payments contribute the largest share.
--Compares sales vs refunds by transaction type, helping identify refund-heavy activities.
--Visualizes sales and refund trends over time, making it easy to spot fluctuations and patterns.
--Highlights monthly sales and transaction volume to understand seasonal behavior.
--Ranks top-selling products, with smartphones and tablets generating the highest revenue.
--Interactive filters (year, transaction type, payment method, product) allow flexible analysis.
+ -Displays overall performance with Total Sales (4.74M), Total Transactions (18K), and Total Refunds (4.78M).
+ 
+ -Shows sales distribution by payment method, where credit and digital payments contribute the largest share.
+ 
+ -Compares sales vs refunds by transaction type, helping identify refund-heavy activities.
+ 
+ -Visualizes sales and refund trends over time, making it easy to spot fluctuations and patterns.
+ 
+ -Highlights monthly sales and transaction volume to understand seasonal behavior.
+ 
+ -Ranks top-selling products, with smartphones and tablets generating the highest revenue.
+ 
+ -Interactive filters (year, transaction type, payment method, product) allow flexible analysis.
 
 
 ## Purpose of the Project
