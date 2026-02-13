@@ -40,7 +40,7 @@ An interactive Power BI dashboard is created to visualize key financial insights
 ## ▶️ How to Run
 
 1. Clone the repository  
-   git clone <your-repository-link>
+   git clone https://github.com/KhantZaySoe/Financial-Transaction-analysis
 
 2. Install dependencies  
    pip install -r requirements.txt
