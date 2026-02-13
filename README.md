@@ -1,96 +1,69 @@
-# Financial_Transaction
+# 📊 Financial Transactions Analysis Dashboard
 
-This project focuses on **cleaning, analyzing, and visualizing financial transaction data** using **Python** and **Power BI**.  
-It demonstrates a complete data workflow from raw data to business insights.
+This project analyzes financial transaction data to understand sales performance, refunds, payment methods, and product trends.
 
----
-## Project Overview
-
-In real-world applications, financial datasets often contain missing values, inconsistent formats, and errors.  
-This project shows how raw transaction data can be cleaned, explored, and transformed into meaningful insights.
-
----
-## Project Files
-
-- **01_data_Wargling.ipynb**  
-  Data cleaning and preprocessing (handling missing values, fixing formats, preparing data)
-
-- **02_Financial_transactions_EDA.ipynb**  
-  Exploratory Data Analysis with visualizations and summary statistics
-
-- **dirty_financial_transactions.csv**  
-  Original raw dataset
-
-- **cleaned_financial_transactions.csv**  
-  Final cleaned dataset after preprocessing
-
-- **03_financial_transactions_Dashboard.pbix**  
-  Power BI dashboard for visual analysis and reporting
-
-- **requirements.txt**  
-  Python libraries required to run the notebooks
+An interactive Power BI dashboard is created to visualize key financial insights and support business decision-making.
 
 ---
 
-## Tools & Technologies
+## 🚀 Features
+- Total Sales, Transactions, and Refund overview  
+- Sales analysis by Payment Method  
+- Sales vs Refund trend over time  
+- Monthly transaction and sales analysis  
+- Top 20 Sales trend visualization  
+- Sales comparison by Product Name  
 
+---
+
+## 🛠 Tools Used
 - Python  
-- Jupyter Notebook / VS Code  
-- Pandas, NumPy, Matplotlib  
-- Power BI Desktop  
+- Pandas  
+- NumPy  
+- Matplotlib / Seaborn  
+- Power BI  
+- Jupyter Notebook  
 
 ---
-## ▶️ How to Run This Project
 
-Follow these steps to run the **financial_transactions** project on your computer.
+## 📂 Project Structure
+- `dirty_financial_transactions.csv` – Raw dataset  
+- `cleaned_financial_transactions.csv` – Cleaned dataset  
+- `01_data_Wrangling.ipynb` – Data cleaning process  
+- `02_Financial_transactions_EDA.ipynb` – Exploratory Data Analysis  
+- `03_financial_transactions_Dashboard.pbix` – Power BI dashboard file  
+- `requirements.txt` – Project dependencies  
+- `README.md` – Project documentation  
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/KhantZaySoe/financial-transaction-analysis.git
-cd financial-transaction-analysis
-```
-### 2️⃣ Create and activate a virtual environment
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-### 3️⃣ Install required libraries
-```bash
-pip install -r requirements.txt
-```
+---
 
-### 4️⃣ Run the Jupyter notebooks
-Option A – Using VS Code
-Open the project folder in VS Code
-Open 01_data_Wargling.ipynb and run all cells
-Then open 02_Financial_transactions_EDA.ipynb and run all cells
+## ▶️ How to Run
 
-Option B – Using Jupyter Notebook
-Then open:
-01_data_Wargling.ipynb
-02_Financial_transactions_EDA.ipynb
+1. Clone the repository  
+   git clone <your-repository-link>
 
+2. Install dependencies  
+   pip install -r requirements.txt
 
-## 📊 Power BI Dashboard – Key Insights
+3. Open and run the notebooks:
+   - `01_data_Wrangling.ipynb`
+   - `02_Financial_transactions_EDA.ipynb`
 
- -Displays overall performance with Total Sales (4.74M), Total Transactions (18K), and Total Refunds (4.78M).
- 
- -Shows sales distribution by payment method, where credit and digital payments contribute the largest share.
- 
- -Compares sales vs refunds by transaction type, helping identify refund-heavy activities.
- 
- -Visualizes sales and refund trends over time, making it easy to spot fluctuations and patterns.
- 
- -Highlights monthly sales and transaction volume to understand seasonal behavior.
- 
- -Ranks top-selling products, with smartphones and tablets generating the highest revenue.
- 
- -Interactive filters (year, transaction type, payment method, product) allow flexible analysis.
+4. Open the Power BI file:
+   - `03_financial_transactions_Dashboard.pbix`
 
+---
 
-## Purpose of the Project
+## 📈 Key Insights
+- Identified top-performing products  
+- Analyzed payment method contribution to total sales  
+- Compared total sales and refunds over time  
+- Observed monthly transaction trends  
 
-This project demonstrates how raw financial transaction data can be cleaned and transformed into reliable information for real-world decision-making. It focuses on handling inconsistent and incomplete data, exploring transaction patterns, and presenting insights in a clear visual form.
+---
 
-Through data cleaning, exploratory analysis, and a Power BI dashboard, the project supports effective financial monitoring, reporting, and data-driven business decisions.
-
+## 📚 What I Learned
+- Data cleaning and preprocessing  
+- Financial data analysis  
+- Creating interactive dashboards in Power BI  
+- Business insight generation from data  
